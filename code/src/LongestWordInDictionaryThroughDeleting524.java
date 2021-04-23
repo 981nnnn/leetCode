@@ -32,7 +32,7 @@ public class LongestWordInDictionaryThroughDeleting524 {
             }else{
                 j++;
             }
-            if(j==characters.size()){
+            if(j==characters.size()&& characters.size()!=0){
                 return "";
             }
         }
@@ -51,11 +51,11 @@ public class LongestWordInDictionaryThroughDeleting524 {
 
     public static void main(String[] args) {
         List<String> list = new ArrayList<>();
-        list.add("ale");
-        list.add("apple");
-        list.add("monkey");
-        list.add("plea");
-        String string = "abpcplea";
+        list.add("a");
+        list.add("aa");
+        list.add("aaa");
+        //list.add("plea");
+        String string = "aaa";
         String longestWord = findLongestWord(string, list);
         System.out.println(longestWord);
     }
