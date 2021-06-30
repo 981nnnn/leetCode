@@ -4,5 +4,3 @@ java:S1155#">Use isEmpty() to check whether the collection is empty or not.(Ã¡¯
 ]	java:S1259"<This block of commented-out lines of code should be removed.(õ”‘úÿÿÿÿ8™×ºÀõ.
 I
 java:S1128".Remove this unused import 'java.util.HashMap'.(™˜”€ùÿÿÿÿ
-o
-java:S3012."YUse "Arrays.copyOf", "Arrays.asList", "Collections.addAll" or "System.arraycopy" instead.(°Ñˆ–
